@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-size: 16rem;
+    background-image: url(./Imagenes/Fondo.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo__videojuego{
+    height: 90px;
+    width: 90px;
+    background-image: url(https://i.pinimg.com/736x/8a/de/0d/8ade0df4be46135687729a03c9642aac.jpg);
+    background-size: 120% 120%;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.navbar-brand svg{
+    width: 35px;
+    height: 75px;
+}
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+.info{
+    margin: 0 6%;
+    background-color: rgba(56, 54, 52, 0.808);
+}
+
+.quienes-somos{
+    height: 100%;
+    color: #fff;
+}
+
+.imagen-quienes-somos{
+    background-image: url(https://i.pinimg.com/originals/86/b0/be/86b0be89303bd2d4816d818e0fa6c718.gif);
+    background-size: 100% 100%;
+    background-position: center;  
+    border-radius: 5%;
+    box-shadow: -1px -1px 6px 0 rgb(122, 221, 102), 4px 4px 16px 2px rgb(92, 162, 235);
+}
+
+
+.parrafo{
+    text-align: justify;
+}
+
+.btn-style{
+    box-shadow: -1px -1px 6px 0 rgb(221, 102, 102), 4px 4px 16px 2px rgb(235, 144, 92);
+}
+
+.sec-ventas{
+    height: 100%;
+    margin: 0 6%;
+    background-color: rgba(56, 54, 52, 0.808);
+}
+
+.ventas{
+    height: 80%;
+}
+
+.ventas-items{
+    width: 85%;
+}
+
+.contactanos{
+    margin: 0 6%;
+    background-color: rgba(56, 54, 52, 0.808);
+}
+
+
+.imagen-desarollo{
+    background-image: url(https://i.pinimg.com/originals/01/ee/62/01ee6220c6f4a25c3c65fc79feeacb94.gif);
+    background-size: 100% 100%;
+    background-position: center;  
+    border-radius: 5%;
+    box-shadow: -1px -1px 6px 0 rgb(122, 221, 102), 4px 4px 16px 2px rgb(92, 162, 235);
+}
+
+.imagen-ilustracion{
+    background-image: url(https://i.redd.it/mtnilgo3c0ky.gif);
+    background-size: 100% 100%;
+    background-position: center;  
+    border-radius: 5%;
+    box-shadow: 2px 2px 8px 0 rgb(209, 102, 221), 4px 4px 16px 0 #d66, 0px 0px 24px 2px rgb(221, 197, 102);
+}
