@@ -17,7 +17,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
+/* 
 .logo__videojuego{
     height: 90px;
     width: 90px;
@@ -25,7 +25,7 @@ body{
     background-size: 120% 120%;
     background-position: center;
     border-radius: 50%;
-}
+} */
 
 .navbar-brand svg{
     width: 35px;
@@ -47,9 +47,6 @@ body{
 }
 
 .imagen-quienes-somos{
-    background-image: url(https://i.pinimg.com/originals/86/b0/be/86b0be89303bd2d4816d818e0fa6c718.gif);
-    background-size: 100% 100%;
-    background-position: center;  
     border-radius: 5%;
     box-shadow: -1px -1px 6px 0 rgb(122, 221, 102), 4px 4px 16px 2px rgb(92, 162, 235);
 }
@@ -92,9 +89,20 @@ body{
 }
 
 .imagen-ilustracion{
-    background-image: url(https://i.redd.it/mtnilgo3c0ky.gif);
-    background-size: 100% 100%;
-    background-position: center;  
     border-radius: 5%;
     box-shadow: 2px 2px 8px 0 rgb(209, 102, 221), 4px 4px 16px 0 #d66, 0px 0px 24px 2px rgb(221, 197, 102);
+}
+
+
+.justificar{
+    text-align:justify;
+}
+
+.back{
+    background-color: rgba(56, 54, 52, 0.808);
+}
+
+.hr{
+    border:2px rgb(255, 255, 255) solid;
+    opacity: 1;
 }

@@ -8,13 +8,22 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="shortcut icon" href="./Imagenes/zombi.png"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">   
 </head>
 <body>
-    <header class="container-fluid bg-black d-flex align-items-center justify-content-between">
-        <div class="logo__videojuego ms-5"></div>
-        <span class="text-light fs-3 pt-2 pb-2">VideoJuegos</span>
-        <span class="text-light fs-3 pt-2 pb-2 me-5">Tel: 3023772644</span>
-    </header>       
+    <header id="inicio" class="container-fluid p-2  bg-black " >
+        <div class="row d-flex justify-content-around align-items-center">
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-12 col-sm-12 col-xs-12 text-center">
+            <img src="./Imagenes/logo.jpg" alt=""  style="height:100px;width:100px">
+            </div>
+            <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12 h1 text-white text-center">
+                <span>VideoJuegos</span>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 fs-4 text-white text-center">
+                <i class="bi bi-telephone">3023772644</i> 
+            </div>
+        </div>
+    </header>    
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand ms-5" href="./index.html">
@@ -52,18 +61,25 @@
             </div>
         </div>
     </nav>
-    <section class="info d-flex flex-column my-5 p-5 h-75 text-white">
-        <h2 class="text-center">Diseño y Programación de VideoJuegos</h2>
-        <div class="fs-6 d-flex flex-row pt-5 h-100">
-            <div class="parrafo w-75">
-                <p>Como ya sabemos, la creación de videojuegos no es un proceso sencillo. Al contrario, es un trabajo muy complejo y arduo que requiere de varios profesionales. Estudiar un Máster en Desarrollo de Videojuegos te hará uno de los principales candidatos para el desarrollo de nuevos videojuegos con las mejores compañías y desarrolladores.</p>
-                <p>Un videojuego es un medio audiovisual interactivo que se puede reproducir en múltiples plataformas, a elección del usuario que vaya a disfrutar el contenido. Se necesitan los conocimientos básicos para definir a qué sistema irá dirigido el videojuego. Teniendo un Máster en Desarrollo de Videojuegos, sabrás distinguir los requerimientos de sistema del proyecto que deseas realizar para tu primer videojuego.</p>
-                <p>Una de las herramientas imprescindibles para el desarrollo de un videojuego es elegir el motor que se utilizará para el mismo. Estudiando con nosotros, te convertirás en un experto en Unity, que es un motor de videojuegos que da al usuario la habilidad de crear juegos y experiencias tanto en 2D como 3D ofreciendo guiones en lenguaje C# y API, que permiten la funcionalidad de drag and drop lo que facilita el manejo e integración de los elementos que van a componer el videojuego.</p>
-                <p>Unity tiene funciones integradas para importar sprites y mundos renderizados en dos dimensiones. En el caso del 3D se puede hacer compresión de texturas, mini mapas y configuraciones de resolución para adaptarse a cualquier plataforma soportada por el motor de juego.</p>
-                <p>No existe videojuego que no cuente con una buena y didáctica interfaz para el usuario, que consiste en el despliegue de los elementos en la pantalla que muestran la información esencial para el jugador como puntos acumulados, inventario, la barra de vida y vidas restantes del personaje que se controla. La creación de interfaz para el usuario es una de las materias principales que se verán en los módulos de nuestro máster.</p>
-                <p>¿Qué es un videojuego si no incluye, al menos, un personaje o escenarios sobre los cuales se va a desarrollar la trama del mismo? De la mano con los ilustradores y diseñadores, los desarrolladores de videojuegos utilizan el trabajo de los artistas para integrarlos en el contexto del videojuego, como lo son el mundo que se va a habitar y los seres quienes lo habitarán.</p>
+    <section class="container info p-5 col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 my-5">
+        <div class="row text-white">
+            <div class="col-12 mb-4">
+                <h2 class="text-center">Diseño y Programación de VideoJuegos</h2>
             </div>
-            <div class="imagen-desarollo mx-5 w-25 h-100"></div>
+            <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12 fs-6 justificar">
+                <div class="col-12">
+                    <p>Como ya sabemos, la creación de videojuegos no es un proceso sencillo. Al contrario, es un trabajo muy complejo y arduo que requiere de varios profesionales. Estudiar un Máster en Desarrollo de Videojuegos te hará uno de los principales candidatos para el desarrollo de nuevos videojuegos con las mejores compañías y desarrolladores.</p>
+                </div>
+                <div class="col-12">
+                    <p>Un videojuego es un medio audiovisual interactivo que se puede reproducir en múltiples plataformas, a elección del usuario que vaya a disfrutar el contenido. Se necesitan los conocimientos básicos para definir a qué sistema irá dirigido el videojuego. Teniendo un Máster en Desarrollo de Videojuegos, sabrás distinguir los requerimientos de sistema del proyecto que deseas realizar para tu primer videojuego.</p>
+                </div>
+                <div class="col-12">
+                    <p>Una de las herramientas imprescindibles para el desarrollo de un videojuego es elegir el motor que se utilizará para el mismo. Estudiando con nosotros, te convertirás en un experto en Unity, que es un motor de videojuegos que da al usuario la habilidad de crear juegos y experiencias tanto en 2D como 3D ofreciendo guiones en lenguaje C# y API, que permiten la funcionalidad de drag and drop lo que facilita el manejo e integración de los elementos que van a componer el videojuego.</p>
+                </div>
+            </div>
+            <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                <img  class="img-fluid imagen-quienes-somos" src="https://i.pinimg.com/originals/2e/fb/6d/2efb6d523b18a1bbcb231c2ba02c75ec.gif" alt="" >
+            </div>
         </div>
     </section>
     <footer>

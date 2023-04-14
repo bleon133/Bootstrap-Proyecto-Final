@@ -8,13 +8,22 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="shortcut icon" href="./Imagenes/zombi.png"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">   
 </head>
 <body>
-    <header class="container-fluid bg-black d-flex align-items-center justify-content-between">
-        <div class="logo__videojuego ms-5"></div>
-        <span class="text-light fs-3 pt-2 pb-2">VideoJuegos</span>
-        <span class="text-light fs-3 pt-2 pb-2 me-5">Tel: 3023772644</span>
-    </header>       
+    <header id="inicio" class="container-fluid p-2  bg-black " >
+        <div class="row d-flex justify-content-around align-items-center">
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-12 col-sm-12 col-xs-12 text-center">
+            <img src="./Imagenes/logo.jpg" alt=""  style="height:100px;width:100px">
+            </div>
+            <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12 h1 text-white text-center">
+                <span>VideoJuegos</span>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 fs-4 text-white text-center">
+                <i class="bi bi-telephone"> 3023772644</i> 
+            </div>
+        </div>
+    </header>   
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand ms-5" href="./index.html">
@@ -52,16 +61,25 @@
             </div>
         </div>
     </nav>
-    <section class="info d-flex flex-column my-5 p-5 h-75 text-white">
-        <h2 class="text-center">Ilustración de VideoJuegos</h2>
-        <div class="fs-6 d-flex flex-row pt-5 h-100">
-            <div class="parrafo w-75">
-                <p>¿Alguna vez te has parado a observar el arte de tu videojuego favorito y has pensado: "¡Me encantaría ser capaz de crear algo así!"? ¡Pues quizás tu sueño esté más al alcance de lo que crees! ¡Esben Lash Rasmussen, ilustrador de de Riot Games, tiene algunos consejos que compartir contigo!</p>
-                <p>Al igual que muchos de nosotros, Esben creció haciendo dibujos de todo aquello que le apasionaba, como Dragon Ball Z o Las Tortugas Ninja. De pequeño compartía clase con dos compañeros a los que se les daba increíblemente bien dibujar y se autoimpuso la tarea de alcanzar su mismo nivel. Durante la adolescencia, sus amigos dejaron de lado el dibujo, pero Esben continuó mejorando su técnica. Tras pasar por varios campamentos de verano de desarrollo de videojuegos y licenciarse en la escuela The Animation Workshop de Dinamarca, trabajó para Atomhawk, Sixmorevodka y Artwoork antes de ocupar su actual puesto en las oficinas de Riot Games de Los Ángeles.</p>
-                <p>Al igual que muchos de nosotros, Esben creció haciendo dibujos de todo aquello que le apasionaba, como Dragon Ball Z o Las Tortugas Ninja. De pequeño compartía clase con dos compañeros a los que se les daba increíblemente bien dibujar y se autoimpuso la tarea de alcanzar su mismo nivel. Durante la adolescencia, sus amigos dejaron de lado el dibujo, pero Esben continuó mejorando su técnica. Tras pasar por varios campamentos de verano de desarrollo de videojuegos y licenciarse en la escuela The Animation Workshop de Dinamarca, trabajó para Atomhawk, Sixmorevodka y Artwoork antes de ocupar su actual puesto en las oficinas de Riot Games de Los Ángeles.</p>
-                <p>Al igual que muchos de nosotros, Esben creció haciendo dibujos de todo aquello que le apasionaba, como Dragon Ball Z o Las Tortugas Ninja. De pequeño compartía clase con dos compañeros a los que se les daba increíblemente bien dibujar y se autoimpuso la tarea de alcanzar su mismo nivel. Durante la adolescencia, sus amigos dejaron de lado el dibujo, pero Esben continuó mejorando su técnica. Tras pasar por varios campamentos de verano de desarrollo de videojuegos y licenciarse en la escuela The Animation Workshop de Dinamarca, trabajó para Atomhawk, Sixmorevodka y Artwoork antes de ocupar su actual puesto en las oficinas de Riot Games de Los Ángeles.</p>
+    <section class="container info p-5 col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 my-5">
+        <div class="row text-white">
+            <div class="col-12 mb-4">
+                <h2 class="text-center">Ilustración de VideoJuegos</h2>
             </div>
-            <div class="imagen-ilustracion mx-5 w-25 h-100"></div>
+            <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12 fs-6 justificar">
+                <div class="col-12">
+                    <p>¿Alguna vez te has parado a observar el arte de tu videojuego favorito y has pensado: "¡Me encantaría ser capaz de crear algo así!"? ¡Pues quizás tu sueño esté más al alcance de lo que crees! ¡Esben Lash Rasmussen, ilustrador de de Riot Games, tiene algunos consejos que compartir contigo!</p>
+                </div>
+                <div class="col-12">
+                    <p>Al igual que muchos de nosotros, Esben creció haciendo dibujos de todo aquello que le apasionaba, como Dragon Ball Z o Las Tortugas Ninja. De pequeño compartía clase con dos compañeros a los que se les daba increíblemente bien dibujar y se autoimpuso la tarea de alcanzar su mismo nivel. Durante la adolescencia, sus amigos dejaron de lado el dibujo, pero Esben continuó mejorando su técnica. Tras pasar por varios campamentos de verano de desarrollo de videojuegos y licenciarse en la escuela The Animation Workshop de Dinamarca, trabajó para Atomhawk, Sixmorevodka y Artwoork antes de ocupar su actual puesto en las oficinas de Riot Games de Los Ángeles.</p>
+                </div>
+                <div class="col-12">
+                    <p>Al igual que muchos de nosotros, Esben creció haciendo dibujos de todo aquello que le apasionaba, como Dragon Ball Z o Las Tortugas Ninja. De pequeño compartía clase con dos compañeros a los que se les daba increíblemente bien dibujar y se autoimpuso la tarea de alcanzar su mismo nivel. </p>
+                </div>
+            </div>
+            <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                <img  class="img-fluid imagen-ilustracion" src="https://i.redd.it/mtnilgo3c0ky.gif" alt="">
+            </div>
         </div>
     </section>
     <footer>
